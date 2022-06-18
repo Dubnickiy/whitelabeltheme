@@ -1,0 +1,1276 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Repeater';
+  src: url('./Repeater-Regular.otf') format('otf'),
+    url('./Repeater-Regular.woff2') format('woff'),
+    url('./Repeater-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Repeater", sans-serif;
+}
+
+
+
+.navigation,
+footer,
+.why {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+.navigation {
+  width: 100%;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-logo {
+  display: flex;
+  gap: 7%;
+  padding-left: 8.5%;
+}
+
+.logo {
+  width: 45px;
+  height: 49px;
+}
+
+.logo-text {
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #FF1C56;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 54px;
+  font-size: 20px;
+  justify-content: space-between;
+  padding-right: 8.5%;
+  align-items: center;
+}
+
+.menu-tahiti-menu-container {
+  padding-right: 8%;
+}
+
+hr {
+  height: 36px;
+  width: 1px;
+  background-color: #EBEDA1;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #FF1C56;
+}
+
+.menu li {
+  transition: 0.3s;
+}
+
+#menu-item-18 a::after,
+#menu-item-19 a::after,
+#menu-item-21 a::after {
+  content: '';
+  width: 1px;
+  height: 20px;
+  background-color: #E7F2A4;
+  position: absolute;
+  margin-left: 23px;
+}
+
+.menu li:hover {
+  transform: scale(1.1);
+}
+
+.welcom-main {
+  width: 100%;
+  height: 632px;
+}
+
+.welcom-main .slick-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+.welcome,
+.welcome-one,
+.welcome-two {
+  height: 631px !important;
+  background-size: cover !important;
+  width: 100%;
+}
+
+.welcome-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 800;
+}
+
+.welcome-to {
+  font-size: 56px;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.welcto {
+  font-weight: 700;
+  letter-spacing: 11px;
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 61px;
+
+}
+
+.welcome-vacation {
+  font-size: 34px;
+  opacity: 0.8;
+  font-weight: 200;
+  font-family: 'Roboto',
+    sans-serif;
+  letter-spacing: 1px;
+}
+
+.discover {
+  height: 803px;
+  background-color: #FBFBED;
+}
+
+.discover-tahiti {
+  font-size: 36px;
+  color: #00BF97;
+  padding-top: 3%;
+  padding-left: 18%;
+  letter-spacing: 2px;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 200;
+}
+
+.discover-text {
+  font-weight: 800;
+}
+
+.discover-just {
+  font-size: 15px;
+  padding-left: 18%;
+  letter-spacing: 0.2px;
+  padding-top: 8px;
+}
+
+.discover-card {
+  padding-left: 1.3%;
+  padding-top: 49px;
+  display: flex;
+  gap: 1.3%;
+}
+
+.slick-list {
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.card {
+  /* height: 370px; */
+  width: 21.7%;
+  background-color: #FFFFFF;
+  margin-right: 0.4%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-footer {
+  background-color: #00BF97 !important;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: 10%;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 7%;
+
+}
+
+.card-footer span {
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.card-footer h3 {
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 28px;
+}
+
+.card-title {
+  font-size: 23px;
+  padding-left: 7%;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  color: #00BF97;
+}
+
+.card-text {
+  padding-left: 7%;
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: 'Roboto',
+    sans-serif;
+  padding-right: 7%;
+  height: 87px;
+}
+
+.single-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.single-text {
+  font-size: 30px;
+  color: #FF1C56;
+  width: 70%;
+  padding-top: 30px;
+}
+
+.single-card img {
+  width: 55%;
+  height: 40%;
+}
+
+.single-card-title {
+  font-size: 67px;
+  color: #FF1C56;
+  padding-top: 30px;
+}
+
+.single-card p {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.card1-footer span {
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.discover-input {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 26px;
+}
+
+.select-button {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.select {
+  width: 46%;
+  /* padding-left: 19%; */
+  padding-top: 35px;
+}
+
+.select-list {
+  width: 100%;
+  height: 61px;
+  font-size: 22px;
+  border: none;
+  padding-left: 2.2%;
+  box-shadow: 0px 0px 6px;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.select-list-button {
+  width: 16%;
+  height: 61px;
+  margin-top: 35px;
+  box-shadow: 0px 0px 6px;
+}
+
+.list-button {
+  width: 100%;
+  height: 61px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  background-color: #00BF97;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.list-button:hover {
+  box-shadow: #00BF97 10px 3px 30px;
+}
+
+.experience {
+  width: 100% !important;
+  height: 652px;
+  background-size: cover !important;
+}
+
+.experience-title {
+  font-size: 42px;
+  color: #FF1C56;
+  font-family: 'Roboto',
+    sans-serif;
+  padding-top: 70px;
+  padding-left: 18.3%;
+  /* letter-spacing: 2px; */
+  font-weight: 200;
+}
+
+.experience-tahiti {
+  font-size: 38px;
+  /* letter-spacing: 5px; */
+  font-weight: 800;
+
+}
+
+.experience-title-text {
+  color: #FFFFFF;
+  font-family: 'Roboto',
+    sans-serif;
+  padding-top: 6px;
+  padding-left: 18.3%;
+  opacity: 0.7;
+}
+
+.experience-text {
+  font-size: 19px;
+  color: #FFFFFF;
+  font-family: 'Roboto',
+    sans-serif;
+  padding-top: 243px;
+  padding-left: 25.6%;
+  width: 76%;
+  font-style: italic;
+  text-align: center;
+}
+
+.experience-button {
+  width: 15%;
+  height: 62px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  background-color: #FF1C56;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 42.5%;
+  margin-top: 49px;
+  cursor: pointer;
+}
+
+.experience-button:hover {
+  box-shadow: #FF1C56 3px 3px 30px;
+}
+
+.why, .container {
+  height: 356px !important;
+  width: 100% !important;
+}
+
+.row{
+  padding-top: 30px !important;
+}
+
+.why-title {
+  padding-top: 65px;
+  /* padding-left: 41%; */
+  text-align: center;
+  font-size: 43px;
+  letter-spacing: 2px;
+  color: #FF5D2F;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: 200;
+}
+
+.why-tahiti {
+  font-weight: 600;
+}
+
+.card-why {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 9%;
+  padding-right: 3%;
+  gap: 2%;
+  margin-top: 45px;
+}
+
+.card-why-text {
+  text-align: center;
+  width: 89%;
+  font-size: 20px;
+}
+
+.unique {
+  width: 100% !important;
+  height: 631px;
+  background-size: cover !important;
+  position: relative;
+}
+
+.unique-card {
+  background-color: black;
+  height: 57%;
+  text-align: center;
+  width: 62%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  opacity: 0.5;
+}
+
+.unique-title {
+  padding-left: 28%;
+  padding-right: 19%;
+  color: white;
+  padding-top: 194px;
+  position: absolute;
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 4px;
+}
+
+.unique-text {
+  color: white;
+  position: absolute;
+  font-family: 'Roboto',
+    sans-serif;
+  padding-top: 272px;
+  width: 74%;
+  padding-left: 24%;
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+.unique-button {
+  margin-top: 414px;
+  margin-left: 42.5%;
+  position: absolute;
+  width: 15%;
+  font-size: 23px;
+  height: 60px;
+  background-color: #00B7C9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.unique-button:hover {
+  box-shadow: #00B7C9 3px 3px 30px;
+}
+
+footer {
+  width: 100%;
+  /* height: 385px; */
+  margin-bottom: 7%;
+  padding-left: 7%;
+  padding-right: 2%;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 6.2%;
+}
+
+.footer-logo {
+  display: flex;
+  /* padding-left: 7.5%; */
+  padding-top: 38px;
+  gap: 9%;
+}
+
+.footer-logo-img {
+  width: 45px;
+  height: 49px;
+}
+
+.footer-logo-text {
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: #FF1C56;
+}
+
+.islands {
+  padding-top: 39px;
+  padding-left: 1%;
+}
+
+.islands-text {
+  font-size: 21px;
+  margin-bottom: 18px;
+  color: #FF1C56;
+}
+
+.islands-nav {
+  list-style: none;
+
+}
+
+.islands-nav a {
+  text-decoration: none;
+  color: #FF1C56;
+}
+
+.islands-nav li {
+  transition: 0.3s;
+}
+
+.islands-nav li:hover {
+  transform: scale(1.1);
+}
+
+.packages {
+  padding-top: 39px;
+  padding-left: 1%;
+}
+
+.packages-text {
+  font-size: 21px;
+  margin-bottom: 18px;
+  color: #FF1C56;
+}
+
+.packages-nav {
+  list-style: none;
+}
+
+.packages-nav a {
+  text-decoration: none;
+  color: #FF1C56;
+}
+
+.packages-nav li {
+  transition: 0.3s;
+}
+
+.packages-nav li:hover {
+  transform: scale(1.1);
+}
+
+.tahiti {
+  padding-top: 39px;
+  padding-left: 1%;
+}
+
+.tahiti-text {
+  font-size: 21px;
+  margin-bottom: 18px;
+  color: #FF1C56;
+}
+
+.tahiti-nav {
+  list-style: none;
+}
+
+.tahiti-nav a {
+  text-decoration: none;
+  color: #FF1C56;
+}
+
+.tahiti-nav li {
+  transition: 0.3s;
+}
+
+.tahiti-nav li:hover {
+  transform: scale(1.1);
+}
+
+.network {
+  display: flex;
+  gap: 3%;
+  padding-top: 46px;
+}
+
+.facebook img {
+  transition: 0.3s;
+}
+
+.facebook img:hover {
+  transform: scale(1.1);
+}
+
+.social img {
+  transition: 0.3s;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+}
+
+.twiter img {
+  transition: 0.3s;
+}
+
+.twiter img:hover {
+  transform: scale(1.1);
+}
+
+.instogram img {
+  transition: 0.3s;
+}
+
+.instogram img:hover {
+  transform: scale(1.1);
+}
+
+.youtube img {
+  transition: 0.3s;
+}
+
+.youtube img:hover {
+  transform: scale(1.1);
+}
+
+button {
+  /* margin-top: 24px; */
+  width: 109px;
+  height: 45px;
+  background-color: #565656;
+  color: #FFFFFF;
+  font-weight: 700;
+  border: none;
+}
+
+.nav-menu {
+  margin-top: 96px;
+}
+
+.burger {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 464px;
+  background-color: white;
+  box-shadow: -8px 20px 20px #9d9c9c;
+  transform: translateY(-200%);
+  right: 0;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.burger>.menu-tahiti-menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger ul>li {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+.burger li>a:hover {
+  border-bottom: 2px solid black;
+  transition: all 0.2s;
+}
+
+.burger li>a {
+  text-decoration: none;
+  color: #FF3182;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1574px) {
+  .unique-title {
+    padding-left: 25%;
+    font-size: 29px;
+  }
+
+  .experience-button{
+    margin-top: 9px;
+  }
+}
+
+@media screen and (max-width:1508px) {
+  .unique-text {
+    margin-top: 1%;
+  }
+}
+
+@media screen and (max-width:1339px) {
+  .card-text{
+    padding-top: 0;
+  }
+}
+
+
+@media screen and (max-width:1272px) {
+  .network {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-logo {
+    width: 20%;
+  }
+
+  .islands {
+    width: 20%;
+  }
+
+  .packages {
+    width: 20%;
+  }
+
+  .tahiti {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width:1074px) {
+  .card-footer {
+    margin-top: 18%;
+  }
+
+  .unique-title {
+    padding-left: 19%;
+  }
+
+  .unique-button {
+    margin-top: 430px;
+  }
+
+  .burger {
+    height: 475px;
+    width: 50%;
+  }
+
+  .menu-tahiti-menu-container {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    gap: 44px;
+
+  }
+
+  .design {
+    margin-top: 116px;
+  }
+
+  .menu-burger .button {
+    display: inline-block;
+    margin-left: 84%;
+    transform: translateY(-57px);
+    position: relative;
+    height: 25px;
+    width: 35px;
+  }
+
+  .button:after {
+    content: '';
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    transition: all 1s;
+  }
+
+  .button span {
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0;
+    top: 11px;
+    transition: all 1s;
+  }
+
+  .button::before {
+    content: '';
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+  }
+
+  :checked~.burger {
+    display: block;
+    transform: translateY(0);
+  }
+
+  :checked~.button::before {
+    transform: rotate(45deg);
+    top: 11px;
+  }
+
+  :checked~.button::after {
+    transform: rotate(-45deg);
+    bottom: 11px
+  }
+
+  :checked~.button span {
+    transform: scale(0);
+  }
+
+}
+
+@media screen and (max-width:992px) {
+  .why-title{
+    padding-top: 11px;
+  }
+
+}
+
+@media screen and (max-width:955px) {
+  .card-footer {
+    margin-top: 25%;
+  }
+
+  .unique-title {
+    font-size: 24px;
+  }
+
+  .unique {
+    margin-top: 4%;
+  }
+
+  .experience-text {
+    padding-top: 162px;
+    padding-left: 6.6%;
+    width: 93%;
+  }
+
+  .experience-button {
+    width: 25%;
+    margin-left: 37.5%;
+  }
+
+}
+
+
+@media screen and (max-width:860px) {
+  .network {
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 28%;
+  }
+
+  .islands {
+    width: 28%;
+  }
+
+  .packages {
+    width: 28%;
+  }
+
+  .tahiti {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width:845px) {
+  .unique-title {
+    padding-top: 185px;
+  }
+
+  .unique-text {
+    padding-top: 230px;
+  }
+
+  .unique {
+    margin-top: 6%;
+  }
+
+  .unique-button {
+    font-size: 19px;
+  }
+
+}
+
+@media screen and (max-width:790px) {
+  .unique {
+    margin-top: 8%;
+  }
+
+  .unique-title {
+    padding-top: 178px;
+  }
+
+  .unique-button {
+    margin-top: 426px;
+    font-size: 17px;
+  }
+
+  .unique-text {
+    font-size: 18px;
+  }
+
+  .unique-title {
+    font-size: 30px;
+  }
+
+  .card-why-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:773px) {
+  .unique-title {
+    padding-top: 160px;
+  }
+
+  .select-list-button {
+    width: 20%;
+  }
+
+  .burger {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:685px) {
+  .unique {
+    margin-top: 10%;
+  }
+
+  .unique-title {
+    font-size: 26px;
+  }
+
+  .burger {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:670px) {
+  .footer-logo {
+    width: 60%;
+  }
+
+  .packages {
+    width: 60%;
+  }
+
+  .network {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .burger {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:658px) {
+  .unique-button {
+    margin-top: 415px;
+    margin-left: 37%;
+    width: 26%;
+  }
+
+  .unique-text {
+    font-size: 16px;
+  }
+
+  .experience-text {
+    padding-top: 160px;
+  }
+
+  .welcome-to {
+    font-size: 52px;
+  }
+
+  .welcome-vacation {
+    font-size: 30px;
+  }
+
+  .select {
+    width: 60%;
+  }
+
+  .select-list-button {
+    width: 22%;
+  }
+
+  .list-button {
+    font-size: 19px;
+  }
+
+  .experience-button {
+    width: 30%;
+  }
+
+  .burger {
+    width: 45%;
+  }
+
+  .select{
+    padding-top: 0;
+  }
+
+  .select-list-button{
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .unique-title {
+    font-size: 24px;
+  }
+
+  .unique-button {
+    font-size: 18px;
+  }
+
+  .card-why-text {
+    font-size: 17px;
+  }
+
+  .select {
+    width: 63%;
+  }
+
+  .burger {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:571px) {
+  .unique-title {
+    font-size: 22px;
+  }
+
+  .unique-text {
+    font-size: 15px;
+  }
+
+  .experience-button {
+    width: 28%;
+  }
+
+  .burger {
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width:546px) {
+  .unique {
+    margin-top: 12%;
+  }
+
+  .card-why-text {
+    font-size: 16px;
+  }
+
+  .experience-title {
+    text-align: center;
+    padding-left: 0;
+    font-size: 38px;
+  }
+
+  .experience-title-text {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .experience-text {
+    padding-top: 140px;
+  }
+
+  .unique-title {
+    font-size: 20px;
+  }
+
+  .welcome-to {
+    font-size: 48px;
+  }
+
+  .welcome-vacation {
+    font-size: 28px;
+  }
+
+  .experience-button {
+    width: 26%;
+  }
+
+  .burger {
+    /* height: 390px; */
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:481px) {
+  .card-footer {
+    margin-top: 4%;
+  }
+
+  .burger {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:468px) {
+  .discover-just {
+    padding-left: 3%;
+  }
+
+  .unique-button {
+    margin-top: 414px;
+  }
+
+}
+
+@media screen and (max-width:434px) {
+  .unique-title {
+    font-size: 16px;
+  }
+
+  .unique-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:415px) {
+  .list-button {
+    font-size: 14px;
+  }
+
+  .experience-text {
+    padding-top: 45px;
+  }
+
+  .card-why-text {
+    font-size: 14px;
+  }
+
+  .burger {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:391px) {
+  .unique-button {
+    font-size: 14px;
+  }
+}
+
+
+
+@media screen and (max-width:376px) {
+  .navigation-logo {
+    padding-left: 2.5%;
+  }
+
+  .burger {
+    width: 100%;
+  }
+
+  .welcto {
+    font-size: 51px;
+  }
+
+  .welcome-to {
+    font-size: 39px;
+  }
+
+}
+
+@media screen and (max-width:361px) {
+  .experience-button {
+    margin-top: 21px;
+  }
+
+  .unique-button {
+    margin-top: 429px
+  }
+
+  .card-why {
+    margin-top: 15px;
+  }
+
+  .welcto {
+    font-size: 42px;
+  }
+
+  .welcome-to {
+    font-size: 32px;
+  }
+
+  .welcome-vacation {
+    font-size: 21px;
+  }
+}
